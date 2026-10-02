@@ -5,12 +5,12 @@ A self-hosted Linux home server that I have been running and using daily for abo
 ![3D-printed case](case.jpg)
 ![Server inside the case](case1.jpeg)
 ![Server running](case2.jpeg)
-
+![Cooling fan mounted on top of the case](case3.jpg)
 ## Hardware
 - Raspberry Pi 5 (8 GB RAM)
-- 512 GB SSD [NVMe HAT / USB 3.0 yaz]
-- 3D-printed enclosure: model by [yapımcı adı] from Bambu Lab MakerWorld ([link]), printed by me
-- cooler fon on the top of the case
+- 512 GB SSD NVMe HAT / USB 3.0 
+- 3D-printed enclosure: model by CB4D from Bambu Lab MakerWorld https://makerworld.com/models/1062225?appSharePlatform=more, printed by me (P1S combo)
+- cooling fan on the top of the case (12V and 120mm)
 
 ## What it does
 - **File storage:** Central place for documents and backups, accessible from all my devices
@@ -54,7 +54,7 @@ WAKE_ON_GPIO=1
 
 Then reboot with `sudo reboot`.
 
-**Status:** [Tested by unplugging and replugging power: it boots by itself now / Still testing / Still not working, checking SSD detection and power supply]
+**Status:** [Tested by unplugging and replugging power: it boots by itself now , checking SSD detection and power supply]
 
 **Next step:** A UPS (uninterruptible power supply) so the server shuts down cleanly or keeps running during outages, which also protects the filesystem from corruption.
 
