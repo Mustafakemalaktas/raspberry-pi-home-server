@@ -1,0 +1,39 @@
+RASPBERRY PI 5 HOME SERVER - UPDATE LOG
+=======================================
+Newest entries on top.
+Tags: [NEW] new feature or hardware, [FIX] problem solved, [PLAN] planned
+
+10/2/2026
+------
+[NEW] Added a cooling fan on top of the case to keep temperatures lower
+      during 24/7 operation. Photo: case3 in this repo.
+
+[date]
+------
+[FIX] Server did not boot back by itself after a short power cut or flicker.
+      The Pi stayed off and had to be restarted by hand.
+      Cause: bootloader (EEPROM) power settings.
+      Solution: updated the firmware and set the following in the
+      bootloader config (sudo -E rpi-eeprom-config --edit):
+          POWER_OFF_ON_HALT=0
+          WAKE_ON_GPIO=1
+      Result: the server now starts automatically when power returns.
+
+2026-10-02
+----------
+[NEW] Published this repository: hardware description, photos of the
+      3D-printed case and a README.
+[NEW] Case: model taken from the Bambu Lab model library, printed by me.
+
+Earlier (about 1 year of running)
+---------------------------------
+[NEW] Raspberry Pi 5 (8 GB RAM) with a 512 GB SSD, running as a home server:
+      - file storage
+      - monthly income/expense tracking with spreadsheets
+      - remote streaming of video, music, movies, series and lecture videos
+
+
+PLANNED
+-------
+[PLAN] UPS (uninterruptible power supply) so the server survives power
+       outages without filesystem corruption.
