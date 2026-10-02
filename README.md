@@ -5,7 +5,7 @@ A self-hosted Linux home server that I have been running and using daily for abo
 ![3D-printed case](case.jpg)
 ![Server inside the case](case1.jpeg)
 ![Server running](case2.jpeg)
-![Cooling fan mounted on top of the case](case3.jpg)
+![Cooling fan mounted on top of the case](case3.jpeg)
 ## Hardware
 - Raspberry Pi 5 (8 GB RAM)
 - 512 GB SSD NVMe HAT / USB 3.0 
