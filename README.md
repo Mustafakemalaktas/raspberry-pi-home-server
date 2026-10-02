@@ -1,6 +1,6 @@
 # Raspberry Pi 5 Home Server
 
-A self-hosted Linux home server that I have been running and using daily for about a year, housed in a 3D-printed case. It handles file storage, personal finance tracking and remote media streaming.
+A self-hosted Linux home server that I have been running and using daily for about a year, housed in a 3D-printed case. It handles file storage, personal finance tracking and remote media streaming.(STARED 19/10/2025)
 
 ![3D-printed case](case.jpg)
 ![Server inside the case](case1.jpeg)
